@@ -1,0 +1,12 @@
+{
+    "name": "datalake",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureBlobFS",
+        "typeProperties": {
+            "url": "<ADLS_GEN2_ENDPOINT>",
+            "encryptedCredential": "<REMOVED_FROM_PUBLIC_REPOSITORY>"
+        }
+    }
+}

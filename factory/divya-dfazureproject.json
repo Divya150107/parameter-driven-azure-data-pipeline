@@ -1,0 +1,15 @@
+{
+	"name": "divya-dfazureproject",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "indiasouthcentral",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "74b9d1e3-78a3-4db3-9c10-4ad92b38ff7b",
+		"tenantId": "0e6944f0-a352-4f7b-bff9-42f6791cfb1c"
+	}
+}

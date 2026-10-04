@@ -1,0 +1,17 @@
+{
+    "name": "azure_sql",
+    "type": "Microsoft.DataFactory/factories/linkedservices",
+    "properties": {
+        "annotations": [],
+        "type": "AzureSqlDatabase",
+        "typeProperties": {
+            "server": "<AZURE_SQL_SERVER>",
+            "database": "<AZURE_SQL_DATABASE>",
+            "encrypt": "mandatory",
+            "trustServerCertificate": false,
+            "authenticationType": "SQL",
+            "userName": "<AZURE_SQL_USERNAME>",
+            "encryptedCredential": "<REMOVED_FROM_PUBLIC_REPOSITORY>"
+        }
+    }
+}
